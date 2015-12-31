@@ -4,7 +4,7 @@
 	{
 		"fieldName"				"mouseoveritempanel"
 		"collection_wide"		"500"
-		"collection_list_xpos"	"250"
+		"collection_list_xpos"	"125"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
 		"text_ypos"			"15"
@@ -80,7 +80,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"namelabel"
-			"font"			"ItemFontNameLarge"
+			"font"			"MaterialTitle"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"

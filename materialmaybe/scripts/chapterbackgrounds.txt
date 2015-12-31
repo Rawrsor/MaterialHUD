@@ -1,0 +1,23 @@
+    "chapters"
+    {
+            1       "material"
+            2       "material2"
+            3       "material3"
+            4       "material4"
+            5       "material5"
+            6       "material6"
+            7       "material7"
+            8       "material8"
+    }
+    "BackgroundMaps"
+    {
+            1       "material"
+            2       "material2"
+            3       "material3"
+            4       "material4"
+            5       "material5"
+            6       "material6"
+            7       "material7"
+            8       "material8"
+    }
+

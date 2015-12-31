@@ -1,0 +1,9 @@
+hudanimations_manifest
+{
+	//load priority goes top to bottom
+	//whatever animations gets loaded first stays, things below it in load priority cannot override it
+
+	"file"		"resource/base_animations/materialAnimations.txt"
+	//"file"		"resource/base_animations/materialAnimationsBox.txt"
+	"file"		"scripts/hudanimations_tf.txt"
+}

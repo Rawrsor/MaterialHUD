@@ -18,27 +18,27 @@ Scheme
 	    
 	    "TFOrangeBright"            "156 82 33 255"
 	    
-	    "TFTextBright"              "251 236 203 150"
-	    "TFTextLight"               "201 188 162 255"
-	    "TFTextMedium"              "131 121 104 255"
-	    "TFTextMediumDark"          "104 96 83 255"
-	    "TFTextBlack"               "42 39 37 255"
-	    "TFTextDull"                "131 121 104 255"
+	    "TFTextBright"              "50 50 50 200"
+	    "TFTextLight"                "50 50 50 255"
+	    "TFTextMedium"              "50 50 50 255"
+	    "TFTextMediumDark"          "50 50 50 255"
+	    "TFTextBlack"               "50 50 50 255"
+	    "TFTextDull"                "50 50 50 255"
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGDeselected"		"0 0 0 0"
+	    "QuickListBGSelected"               "32 32 32 100"
 	    
 	    "Blank"				"0 0 0 0"
 	    
 	    // background colors
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
+		"ControlBG"			"233 233 233 255"		// background color of controls
+		"ControlDarkBG"		"200 200 200 255"		// darker background color; used for background of scrollbars
+		"WindowBG"			"200 200 200 255"		// background color of text edit panes (chat, text entries, etc.)
 		"SelectionBG"		"90 84 75 255"	// background color of any selected text or menu item
 		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		"ListBG"			"233 233 233 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
@@ -77,7 +77,7 @@ Scheme
 		RadioButton.SelectedTextColor	"TFTextBright"
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
-		Frame.BgColor					"TFDarkBrown"
+		Frame.BgColor					"ControlBG"
 		Frame.OutOfFocusBgColor			"TFDarkBrownTransparent"
 		FrameGrip.Color1				"TFTanMedium"
 		FrameGrip.Color2				"TFDarkBrown"
@@ -156,11 +156,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
+				"name"		"Roboto Bold Caps"
+				"tall"		"28"
 				"antialias" "1"
 			}
 		}
@@ -169,7 +166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Roboto Light"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -179,7 +176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Roboto Light"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -187,7 +184,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"Roboto Light"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -195,7 +192,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"Roboto Light"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -204,7 +201,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Tahoma"
+				"name"		"Roboto Light"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -213,7 +210,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Tahoma"
+				"name"		"Roboto Light"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -227,8 +224,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"Roboto Light" [!$OSX]
+				"name"		"Roboto Light" [$OSX]
 				"weight"		"1500"
 				"tall"			"16" [!$OSX]
 				"tall"			"18" [$OSX]
@@ -240,8 +237,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"Roboto Light" [!$OSX]
+				"name"		"Roboto Light" [$OSX]
 				"weight"		"1500"
 				"tall"			"18" [!$OSX]
 				"tall"			"19" [$OSX]
@@ -253,8 +250,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"Roboto Light" [!$OSX]
+				"name"		"Roboto Light" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$OSX]
 				"tall"			"12" [$OSX]
@@ -326,6 +323,16 @@ Scheme
 			{
 				"range" "0x0000 0x0451"
 			}	
+		}
+		"7"
+		{
+			"font"	"resource/fonts/Roboto-Bold-Caps.ttf"
+			"name"	"Roboto Bold Caps"
+		}
+		"7"
+		{
+			"font"	"resource/fonts/Roboto-Light.ttf"
+			"name"	"Roboto Light"
 		}
 	}
 }

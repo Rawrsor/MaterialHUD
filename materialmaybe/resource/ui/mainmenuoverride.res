@@ -231,6 +231,21 @@
 		"draw_corner_height" 	"8"	
 	}
 
+	"HeaderLogoA"
+	{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"HeaderLogoA"
+			"xpos"			"38"
+			"ypos"			"0"
+			"zpos"			"4"
+			"wide"			"75"
+			"tall"			"75"
+			"visible"		"0"
+			"enabled"		"0"
+			"scaleimage"	"0"
+			"image"		"replay/thumbnails/Notification"
+	}
+
 	"SideBar"
 	{
 		"ControlName"	"EditablePanel"
@@ -365,10 +380,10 @@
 		"ypos"			"0"
 		"zpos"			"-200"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"f0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/material"
+		"image"			""
 		"scaleImage"	"1"
 	}
 					
@@ -586,11 +601,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c188"
-		"ypos"			"28"
-		"zpos"			"10"
-		"wide"			"32"
-		"tall"			"32"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"75"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -606,7 +621,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"16"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"16"
@@ -625,7 +640,7 @@
 			"font"			"HudFontSmallestBold"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"16"
+			"xpos"			"99999"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"16"
@@ -641,11 +656,11 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
-			"xpos"			"0"
+			"xpos"			"38"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"150"
+			"tall"			"75"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -654,8 +669,6 @@
 			"labelText"		""
 			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
 			"default"		"1"
 
 			"Command"		"noti_show"
@@ -664,8 +677,6 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"255 255 255 255"
 			
 			"SubImage"
 			{
@@ -674,12 +685,12 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"75"
+				"tall"			"75"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"button_Alert"
-				"scaleImage"	"1"
+				"scaleimage"	"1"
+				"image"			"replay/thumbnails/Notification"
 			}
 		}
 	}
@@ -919,21 +930,26 @@
 			}
 		}
 
-		"MOTD_BackPanel"
+		"bg"
 		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"MOTD_BackPanel"
-			"xpos"			"c-400"
+			"ControlName"	"ScalableImagePanel"
+			"fieldName"		"bg"
+			"xpos"			"c-403"
 			"ypos"			"c-191"
 			"zpos"			"0"
-			"wide"			"150"
-			"tall"			"266"
+			"wide"			"156"
+			"tall"			"272"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"9999"
+			"image"			"replay/thumbnails/materialPanel"
 
-			"defaultBgColor_Override"	"MaterialTextIcons"
-			"armedBgColor_Override"		"MaterialTextIcons"
+			"alpha"				"255"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
+			
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 		
 		"MOTD_CloseButton"
@@ -1162,7 +1178,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"MOTD_URLButton"
 			"xpos"			"c-300"
-			"ypos"			"c-101"
+			"ypos"			"c-121"
 			"zpos"			"4"
 			"wide"			"50"
 			"tall"			"50"
@@ -1201,7 +1217,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"Circle"
 			"xpos"			"c-300"
-			"ypos"			"c-101"
+			"ypos"			"c-121"
 			"zpos"			"3"
 			"wide"			"50"
 			"tall"			"50"
@@ -1217,7 +1233,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CircleS"
 			"xpos"			"c-300"
-			"ypos"			"c-100"
+			"ypos"			"c-120"
 			"zpos"			"2"
 			"wide"			"50"
 			"tall"			"50"
@@ -1333,15 +1349,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"210"
+		"wide"			"150"
 		"tall"			"80"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"NoBorder"
 
 		"navUp"			"MOTD_ShowButtonPanel"
 		"navDown"		"SettingsButton"
@@ -1353,22 +1369,19 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_CloseButton"
-			"xpos"			"186"
-			"ypos"			"8"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"10"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"24"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"labeltext"		"l"
+			"font"			"Icon14"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
 
 			"Command"		"noti_hide"
 			"navActivate"	"<QuickplayButton"
@@ -1378,44 +1391,66 @@
 
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "MaterialTextIcons"
+			"defaultBgColor_override" "0 0 0 0"
+			"armedBgColor_override" "0 0 0 0"
+			"armedFgColor_override" "MaterialTextSecondary"
+			"depressedFgColor_override" "MaterialTextIcons"
+							
+		}
+
+		"BG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"			"BG"
+			"xpos"				"0"
+			"ypos"				"0"
+			"zpos"				"0"
+			"wide"				"150"
+			"tall"				"75"
+			"visible"			"0"
+			"enabled"			"0"
+			"fillcolor"			"MaterialAccentDark"
+		}
+
+		"HealthBG"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"			"HealthBG"
+			"xpos"				"-4"
+			"ypos"				"0"
+			"zpos"				"-1"
+			"wide"				"158"
+			"tall"				"82"
+			"visible"			"0"
+			"enabled"			"0"
+			"image"				"replay/thumbnails/materialPanel"
+
+			"alpha"				"255"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
 			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
-		}		
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
 	
 		"Notifications_TitleLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"MaterialTitle"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
-			"xpos"			"12"
-			"ypos"			"8"
-			"wide"			"250"
+			"xpos"			"9999"
+			"ypos"			"37"
+			"wide"			"150"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"46 43 42 255"
+			"fgcolor_override"	"MaterialTextIcons"
 			"wrap"			"1"
 		}
 		

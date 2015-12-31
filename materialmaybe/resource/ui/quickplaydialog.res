@@ -37,69 +37,52 @@
 		"paintbackground"		"1"
 		"border"				"NoBorder"
 
+
 		"MaterialBG"
 		{
-			"ControlName"	"CExImageButton"
+			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"MaterialBG"
-			"xpos"			"50"
+			"xpos"			"47"
 			"ypos"			"52"
 			"zpos"			"0"
-			"wide"			"300"
-			"tall"			"265"
+			"wide"			"306"
+			"tall"			"269"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"9999"
 
-			"defaultBgColor_Override"	"MaterialTextIcons"
-			"armedBgColor_Override"		"MaterialTextIcons"
+			"image"				"replay/thumbnails/materialPanel"
+
+			"alpha"				"255"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
+		
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 		"MaterialBGTop"
 		{
-			"ControlName"	"CExImageButton"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"MaterialBGTop"
-			"xpos"			"50"
-			"ypos"			"49"
+			"xpos"			"47"
+			"ypos"			"46"
 			"zpos"			"49"
-			"wide"			"300"
-			"tall"			"75"
+			"wide"			"306"
+			"tall"			"81"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"9999"
+			"image"				"replay/thumbnails/materialPanel"
 
-			"defaultBgColor_Override"	"MaterialPrimaryDark"
-			"armedBgColor_Override"		"MaterialPrimaryDark"
+			"alpha"				"255"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
+		
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+			"drawcolor"			"MaterialPrimaryDark"
 		}
-		"MaterialBGTop2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"MaterialBGTop2"
-			"xpos"			"50"
-			"ypos"			"114"
-			"zpos"			"55"
-			"wide"			"300"
-			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"MaterialPrimaryDark"
-		}
-		"CardShadowBottom"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CardShadowBottom"
-			"xpos"			"50"
-			"ypos"			"111"
-			"zpos"			"48"
-			"wide"			"310"
-			"tall"			"22"
-			"visible"		"1"
-			"enabled"		"1"
-			"labeltext"		"___________________________________________________________________________________________________________________________________"
-			"textinsetx"	"0"
-			"font"			"Blur12"
-			"fgcolor"		"0 0 0 255"
-			"textalignment"	"west"
-			"textinsety"	"-2"
-		}
+
 		"BGOver"
 		{
 			"ControlName"	"ImagePanel"
@@ -443,54 +426,50 @@
 
 			"MaterialBG"
 			{
-				"ControlName"	"CExImageButton"
+				"ControlName"	"ScalableImagePanel"
 				"fieldName"		"MaterialBG"
-				"xpos"			"0"
+				"xpos"			"-4"
 				"ypos"			"90"
 				"zpos"			"0"
-				"wide"			"300"
-				"tall"			"205"
+				"wide"			"307"
+				"tall"			"210"
 				"visible"		"1"
 				"enabled"		"1"
-				"textinsetx"	"9999"
 
-				"defaultBgColor_Override"	"MaterialTextPrimary"
-				"armedBgColor_Override"		"MaterialTextPrimary"
+				"image"				"replay/thumbnails/materialPanel"
+
+				"alpha"				"255"
+
+				"src_corner_height"	"23"				// pixels inside the image
+				"src_corner_width"	"23"
+			
+				"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"8"	
+				"drawcolor"			"50 50 50 255"
 			}
 
-				"MaterialBGTop2"
+			"MaterialBGTop"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"MaterialBGTop2"
-				"xpos"			"0"
-				"ypos"			"90"
-				"zpos"			"55"
-				"wide"			"300"
-				"tall"			"10"
+				"ControlName"	"ScalableImagePanel"
+				"fieldName"		"MaterialBGTop"
+				"xpos"			"-4"
+				"ypos"			"22"
+				"zpos"			"49"
+				"wide"			"307"
+				"tall"			"81"
 				"visible"		"1"
 				"enabled"		"1"
-				"fillcolor"		"MaterialPrimaryDark"
-			}
+				"image"				"replay/thumbnails/materialPanel"
 
-			"CardShadowBottomS"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"CardShadowBottomS"
-				"xpos"			"0"
-				"ypos"			"86"
-				"zpos"			"48"
-				"wide"			"310"
-				"tall"			"22"
-				"visible"		"1"
-				"enabled"		"1"
-				"labeltext"		"___________________________________________________________________________________________________________________________________"
-				"textinsetx"	"0"
-				"font"			"Blur12"
-				"fgcolor"		"0 0 0 255"
-				"textalignment"	"west"
-				"textinsety"	"-2"
-			}
+				"alpha"				"255"
 
+				"src_corner_height"	"23"				// pixels inside the image
+				"src_corner_width"	"23"
+			
+				"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"8"	
+				"drawcolor"			"MaterialPrimaryDark"
+			}
 
 			"TitleLabel"
 			{

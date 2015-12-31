@@ -15,18 +15,80 @@
 		"enabled"		"1"
 	}
 
-	"BG"
+	"TransparentViewmodelMask"
 	{
+		//alpha doesn't work for this, you need to change the texture's alpha
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BG"
+		"fieldName"		"TransparentViewmodelMask"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"-500"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_top"
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/blurfact"
+	}
+	"TransparentViewmodelMask2"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-501"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_right"
+		"scaleImage"	"1"
+	}
+	"TransparentViewmodelMask3"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask3"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-502"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_bot"
+		"scaleImage"	"1"
+	}
+	"TransparentViewmodelMask4"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask4"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-503"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_left"
+		"scaleImage"	"1"
+	}
+	"TransparentViewmodelMask5"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask5"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-504"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/REFRACTblur"
+		"scaleImage"	"1"
 	}
 	
 	"MapInfoTitle"
@@ -45,7 +107,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"MaterialHeadline"
-		"fgcolor"		"MaterialAccentDark"
+		"fgcolor"		"MaterialTextIcons"
 	}
 	
 	"MapInfoType"
@@ -69,7 +131,7 @@
 	
 	"MapInfoText"
 	{
-		"ControlName"	"CExRichText"
+		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoText"
 		"font"			"MaterialCaption"
 		"xpos"			"c-64"
@@ -77,13 +139,13 @@
 		"zpos"			"3"
 		"wide"			"128"
 		"tall"			"200"
-		"autoResize"	"3"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"center"
-		"fgcolor"		"MaterialTextPrimary"
+		"fgcolor"		"MaterialTextIcons"
+		"wrap"			"1"
 	}
 	
 	"MapImage"
@@ -142,9 +204,9 @@
 		"command"		"continue"
 		"font"			"Icon18"
 
-		"defaultFgColor_override" 	"MaterialTextPrimary"
-		"armedFgColor_override" 	"MaterialAccent"
-		"depressedFgColor_override" "MaterialTextPrimary"
+		"defaultFgColor_override" 	"MaterialTextIcons"
+		"armedFgColor_override" 	"MaterialTextSecondary"
+		"depressedFgColor_override" "MaterialTextIcons"
 
 		"defaultBgColor_override" 	"0 0 0 0"
 		"armedBgColor_override" 	"0 0 0 0"
@@ -232,9 +294,39 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BGC"
+		"xpos"			"c-129"
+		"ypos"			"c-129"
+		"zpos"			"1"
+		"wide"			"258"
+		"tall"			"258"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/largeCircle"
+		"drawcolor"		"MaterialAccent"
+	}			
+	"BGC2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGC2"
+		"xpos"			"c-33"
+		"ypos"			"c127"
+		"zpos"			"1"
+		"wide"			"66"
+		"tall"			"66"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"replay/thumbnails/largeCircle"
+		"drawcolor"		"MaterialAccentDark"
+	}			
+	"BGC21"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGC21"
 		"xpos"			"c-128"
 		"ypos"			"c-128"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"256"
 		"tall"			"256"
 		"visible"		"1"
@@ -242,13 +334,13 @@
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/largeCircle"
 	}			
-	"BGC2"
+	"BGC22"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BGC2"
+		"fieldName"		"BGC22"
 		"xpos"			"c-32"
 		"ypos"			"c128"
-		"zpos"			"1"
+		"zpos"			"-1"
 		"wide"			"64"
 		"tall"			"64"
 		"visible"		"1"

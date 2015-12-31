@@ -5,9 +5,7 @@
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
 		"xpos"				"-20"
-		"xpos_minmode"		"20"
 		"ypos"				"0"
-		"ypos_minmode"		"-14"
 		"zpos"				"2"
 		"wide"				"100"
 		"tall"				"150"
@@ -27,7 +25,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"MaterialTitle"
 			"fgcolor"		"MaterialTeamBlu"
-			"xpos"			"25"
+			"xpos"			"40"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
@@ -37,26 +35,6 @@
 			"textAlignment"		"east"
 			"labelText"		"0:00"
 		}	
-
-		"TimePanelProgressBar"
-		{
-			"ControlName"			"CTFProgressBar"
-			"fieldName"			"TimePanelProgressBar"
-			"xpos"				"72"
-			"ypos"				"11"
-			"zpos"				"0"	
-			"wide"				"32"
-			"tall"				"32"	
-			"visible"			"1"
-			"visible_minmode"	"0"
-			"enabled"			"1"
-			"scaleImage"			"0"
-			"image"				""
-			"color_active"			"MaterialTextIcons"
-			"color_inactive"		"MaterialTextPrimary"
-			"color_warning"			"MaterialLowHealth"
-			"percent_warning"		"0.75"
-		}
 	}
 
 	"RedTimer"
@@ -86,7 +64,7 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"MaterialTitle"
 			"fgcolor"		"MaterialTeamRed"
-			"xpos"			"30"
+			"xpos"			"10"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
@@ -96,43 +74,28 @@
 			"textAlignment"		"west"
 			"labelText"		"0:00"
 		}	
-
-		"TimePanelProgressBar"
-		{
-			"ControlName"			"CTFProgressBar"
-			"fieldName"			"TimePanelProgressBar"
-			"xpos"				"0"
-			"ypos"				"11"
-			"zpos"				"0"	
-			"wide"				"32"
-			"tall"				"32"	
-			"visible"			"1"
-			"visible_minmode"	"0"
-			"enabled"			"1"
-			"scaleImage"			"0"
-			"image"				""
-			"color_active"			"MaterialTextIcons"
-			"color_inactive"		"MaterialTextPrimary"
-			"color_warning"			"MaterialLowHealth"
-			"percent_warning"		"0.75"
-		}
 	}
 	
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"0"
-		"ypos"				"9"
-		"ypos_minmode"		"-4"
+		"xpos"				"30"
+		"ypos"				"14"
 		"zpos"				"1"
-		"wide"				"78"
-		"wide_minmode"		"37"
-		"tall"				"33"
-		"tall_minmode"		"21"
+		"wide"				"72"
+		"tall"				"24"
 		"visible"			"0"
 		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
-		"scaleImage"		"1"	
+		"image"				"replay/thumbnails/materialpanel"
+		"scaleimage"		"1"
+		"drawcolor"			"MaterialTextIcons"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
+
 	}
 }

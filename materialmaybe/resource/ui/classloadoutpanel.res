@@ -19,8 +19,8 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"-310"
-		"item_xpos_offcenter_b"	"165"
+		"item_xpos_offcenter_a"	"-370"
+		"item_xpos_offcenter_b"	"225"
 		"item_ypos"		"80"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -58,7 +58,7 @@
 			"attriblabel"
 			{
 				"font"			"MaterialTitle"
-				"visible"		"0"
+				"visible"		"1"
 			}
 			
 			"itemmodelpanel"
@@ -75,18 +75,29 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
+			"wide"			"16"
+			"tall"			"16"
 			"autoResize"	"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"+"
-			"font"			"HudFontSmallBold"
+			"labelText"		"c"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
+
+			"font"			"IconAlt12"
+			"border"			"noborder"
+			"border_default"	"noborder"
+			"border_armed"		"noborder"
+			"paintbackground"	"1"
+			
+			"defaultFgColor_override" 	"MaterialTextIcons"
+			"armedFgColor_override" 	"MaterialAccent"
+			"depressedFgColor_override" "MaterialTextIcons"
+
+			"defaultBgColor_override" 	"0 0 0 0"
+			"armedBgColor_override" 	"0 0 0 0"
+			"depressedBgColor_override" "0 0 0 0"
+
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -245,7 +256,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"c-135"
-		"ypos"			"20"
+		"ypos"			"40"
 		"zpos"			"-1"		
 		"wide"			"270"
 		"tall"			"340"
@@ -551,11 +562,11 @@
 
 	"CharacterLoadoutButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CharacterLoadoutButton"
-		"labelText"		""
-		"xpos"			"c-25"
-		"ypos"			"c160"
+		"labelText"		"o"
+		"xpos"			"c-27"
+		"ypos"			"135"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -564,36 +575,33 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
+
+		"font"			"IconAlt18"
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"MaterialTextIcons"
+		"armedFgColor_override" 	"MaterialAccent"
+		"depressedFgColor_override" "MaterialTextIcons"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"glyph_items"
-		}
 	}
 
 	"TauntLoadoutButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"TauntLoadoutButton"
-		"labelText"		""
-		"xpos"			"c2"
-		"ypos"			"c160"
+		"labelText"		"n"
+		"xpos"			"c1"
+		"ypos"			"135"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -602,27 +610,24 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
+
+		"font"			"IconAlt18"
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"MaterialTextIcons"
+		"armedFgColor_override" 	"MaterialAccent"
+		"depressedFgColor_override" "MaterialTextIcons"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
-			"enabled"		"1"
-			"scaleImage"	"1"
-			"image"			"../hud/ico_reel"
-		}
 	}
 
 	"TauntsExplanation"

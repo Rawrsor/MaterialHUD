@@ -1,0 +1,134 @@
+//===========================================
+
+//Health Bonus Pulse
+event HudHealthBonusPulse
+{
+
+	Animate PlayerStatusHealthValue			FgColor 	"MaterialBuffHealth"	Deaccel 0.0 0.1
+	Animate PlayerStatusHealthValue2 				FgColor 	"MaterialTextIcons"		Deaccel 0.0 0.1
+	Animate CircleSpec 								FgColor 	"MaterialBuffHealth"	Deaccel 0.0 0.1
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+}
+
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 0.0
+	StopEvent HudHealthBonusPulseLoop 0.0
+
+	Animate PlayerStatusHealthValue			FgColor 	"MaterialTextIcons"	Deaccel 0.0 0.1
+	Animate PlayerStatusHealthValue2 				FgColor 	"MaterialTextPrimary"	Deaccel 0.0 0.1
+	Animate CircleSpec 								FgColor 	"MaterialTextIcons"	Deaccel 0.0 0.1
+
+}
+
+//===========================================
+
+//Health Dying Pulse
+event HudHealthDyingPulse
+{
+
+	Animate PlayerStatusHealthValue			FgColor 	"MaterialLowHealth"	Deaccel 0.0 0.1
+	Animate PlayerStatusHealthValue2 				FgColor 	"MaterialTextIcons"	Deaccel 0.0 0.1
+	Animate CircleSpec 								FgColor 	"MaterialLowHealth"	Deaccel 0.0 0.1
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 0.0
+	StopEvent HudHealthDyingPulseLoop 0.0
+
+	Animate PlayerStatusHealthValue			FgColor 	"MaterialTextIcons"	Deaccel 0.0 0.1
+	Animate PlayerStatusHealthValue2 				FgColor 	"MaterialTextPrimary"	Deaccel 0.0 0.1
+	Animate CircleSpec 								FgColor 	"MaterialTextIcons"	Deaccel 0.0 0.1
+}
+
+//===========================================
+
+//====================================
+
+// Flash the medic charge hud when we have full charge
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	Alpha 			"0" 		Deaccel	0.0 0.05
+
+	Animate ChargeMeter 	Position 		"c123 c69"	Deaccel 0.0 0.3
+	Animate ChargeMeter 	Size 			"64 26"		Deaccel 0.3 0.3
+	Animate ChargeMeter 	Fgcolor 		"MaterialAccent" 		linear 0.1 0.3
+	Animate ChargeMeter     Fgcolor 		"MaterialAccentDark" 	linear 0.4 0.3
+
+	Animate ULabel			Alpha 			"255"		Linear  0.1 0.1
+	Animate ULabel			Fgcolor 		"100 100 100 255" 		Linear  0.2 0.3
+	Animate ULabel 			Fgcolor 		"MaterialTextIcons"		Linear 0.5 0.3
+
+	Animate IndividualChargesLabel Alpha 	"0"			Linear 0.0 0.1
+
+
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+	
+	RunEvent HudMedicCharged 0.0
+
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 0.0
+	StopEvent HudMedicChargedLoop 0.0
+	
+	Animate ChargeMeter 	Size 			"64 3"		Accel 0.0 0.3
+	Animate ChargeMeter 	Position 		"c123 c90"	DeAccel 0.3 0.3
+
+	Animate	ChargeLabel 	Alpha 			"255" 		Deaccel	0.6 0.1
+	
+	Animate	ChargeLabel 	FgColor		"MaterialTextSecondary"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"MaterialBuffHealth"		Linear 0.0 0.0001
+	Animate ULabel			Alpha 			"0" 		Linear  0.1 0.1
+	Animate IndividualChargesLabel Alpha 	"255"			Linear 0.0 0.1
+}
+
+//====================================
+
+//===========================================
+
+event DamagedPlayer
+{
+	// empty
+}
+
+//===========================================
+
+//===========================================
+
+event HasNotificationsBlink
+{
+}
+
+event HasNotificationsBlinkLoop
+{
+}
+
+event HasNotificationsBlinkStop
+{
+}
+
+//===========================================

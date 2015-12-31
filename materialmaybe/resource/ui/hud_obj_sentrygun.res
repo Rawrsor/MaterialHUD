@@ -314,8 +314,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"fgcolor_override"		"MaterialAccent"
+				"bgcolor_override"		"14 14 14 140"
 			}
 		}
 		
@@ -385,7 +385,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"0"
 				"ypos"			"26"
 				"wide"			"38"
 				"tall"			"8"				
@@ -394,8 +394,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"fgcolor"		"MaterialAccent"
+				"bgcolor"		"14 14 14 140"
 			}
 			
 			"RocketIcon"	
@@ -462,8 +462,6 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
 			}
 		}
 	}

@@ -15,20 +15,6 @@
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
 	}
-
-	"BG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"replay/thumbnails/blurfact"
-	}
 	"BGC"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,6 +28,82 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"replay/thumbnails/largeCircle"
+		"drawcolor"		"MaterialAccent"
+	}
+	"TransparentViewmodelMask"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-500"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_top"
+		"scaleImage"	"1"
+	}
+	"TransparentViewmodelMask2"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-501"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_right"
+		"scaleImage"	"1"
+	}
+	"TransparentViewmodelMask3"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask3"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-502"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_bot"
+		"scaleImage"	"1"
+	}
+	"TransparentViewmodelMask4"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask4"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-503"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/blur/blur_left"
+		"scaleImage"	"1"
+	}
+	"TransparentViewmodelMask5"
+	{
+		//alpha doesn't work for this, you need to change the texture's alpha
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask5"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-504"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/hp/REFRACTblur"
+		"scaleImage"	"1"
 	}
 	
 	"TFMessageTitle"
@@ -128,9 +190,9 @@
 		"command"		"okay"
 		"font"			"Icon56"
 
-		"defaultFgColor_override" 	"MaterialTextPrimary"
-		"armedFgColor_override" 	"MaterialAccent"
-		"depressedFgColor_override" "MaterialTextPrimary"
+		"defaultFgColor_override" 	"MaterialTextIcons"
+		"armedFgColor_override" 	"MaterialTextSecondary"
+		"depressedFgColor_override" "MaterialTextIcons"
 
 		"defaultBgColor_override" 	"0 0 0 0"
 		"armedBgColor_override" 	"0 0 0 0"

@@ -15,15 +15,17 @@
 		"tabPosition"		"0"
 		"medal_width"		"15"
 		"avatar_width"		"57"	[$WIN32]
-		"name_width"		"70"	[$WIN32]
-		"name_width_short"	"85"	[$WIN32]		
-		"status_width"		"15"	[$WIN32]
+		"spacer"			"0"
+		"name_width"		"90"	[$WIN32]
+		"name_width_short"	"70"	[$WIN32]		
+		"status_width"		"0"	[$WIN32]
 		"nemesis_width"		"15"	[$WIN32]
-		"class_width"		"15"	[$WIN32]
-		"score_width"		"35"
-		"ping_width"		"100"	[$WIN32]
+		"class_width"		"25"	[$WIN32]
+		"score_width"		"50"
+		"ping_width"		"50"	[$WIN32]
 		"stats_width"		"0"
 		"killstreak_width"	"0"
+		"killstreak_image_width" "0"
 	}
 	"BlueScoreBG"
 	{
@@ -49,35 +51,82 @@
 
 	"MainScoreBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"MainScoreBG"
-		"xpos"				"80"
+		"xpos"				"30"
 		"ypos"				"c0"
 		"zpos"				"-1"
-		"wide"				"480"
+		"wide"				"280"
 		"tall"				"140"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"border"			"MyBorder"
+		//"image"				"replay/thumbnails/materialPanel"
 
-		"alpha"				"255"
+		//"alpha"				"255"
 
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
+		//"src_corner_height"	"23"				// pixels inside the image
+		//"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		//"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		//"draw_corner_height" 	"8"	
+	}
+
+	"MainScoreBG2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"MainScoreBG2"
+		"xpos"				"340"
+		"ypos"				"c0"
+		"zpos"				"-1"
+		"wide"				"280"
+		"tall"				"140"
+		"visible"			"1"
+		"enabled"			"1"
+		"border"			"MyBorder"
+		//"image"				"replay/thumbnails/materialPanel"
+
+		//"alpha"				"255"
+
+		//"src_corner_height"	"23"				// pixels inside the image
+		//"src_corner_width"	"23"
+		
+		//"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		//"draw_corner_height" 	"8"	
 	}
 
 	"ScoreBG2"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"			"ScoreBG2"
-		"xpos"				"80"
+		"xpos"				"30"
 		"ypos"				"c140"
 		"zpos"				"-1"
-		"wide"				"480"
+		"wide"				"590"
 		"tall"				"60"
+		"visible"			"1"
+		"enabled"			"1"
+		"border"			"MyBorder"
+		//"image"				"replay/thumbnails/materialPanel"
+
+		//"alpha"				"255"
+
+		//"src_corner_height"	"23"				// pixels inside the image
+		//"src_corner_width"	"23"
+		
+		//"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		//"draw_corner_height" 	"8"	
+	}
+
+	"BluBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"BluBG"
+		"xpos"				"30"
+		"ypos"				"c-31"
+		"zpos"				"11"
+		"wide"				"280"
+		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/materialPanel"
@@ -89,73 +138,30 @@
 		
 		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
+		"drawcolor"			"MaterialTeamBlu"
 	}
 
+	"RedBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"RedBG"
+		"xpos"				"340"
+		"ypos"				"c-31"
+		"zpos"				"11"
+		"wide"				"280"
+		"tall"				"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
 
-	"CircleBlu"
-	{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CircleBlu"
-			"xpos"			"c-370"
-			"ypos"			"c41"
-			"zpos"			"3"
-			"wide"			"50"
-			"tall"			"50"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"O"
-			"font"			"CircleLarge"
-			"fgcolor"		"TeamBlue"
-			"textAlignment"	"Center"
-	}
-	"CircleSBlu"
-	{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CircleSBlu"
-			"xpos"			"c-370"
-			"ypos"			"c42"
-			"zpos"			"2"
-			"wide"			"50"
-			"tall"			"50"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"O"
-			"font"			"CircleLargeS"
-			"fgcolor"		"14 14 14 255"
-			"textAlignment"	"Center"
-	}
+		"alpha"				"255"
 
-	"CircleRed"
-	{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CircleRed"
-			"xpos"			"c105"
-			"ypos"			"c41"
-			"zpos"			"3"
-			"wide"			"50"
-			"tall"			"50"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"O"
-			"font"			"CircleLarge"
-			"fgcolor"		"TeamRed"
-			"textAlignment"	"Center"
-	}
-	"CircleSRed"
-	{
-			"ControlName"	"CExLabel"
-			"fieldName"		"CircleSRed"
-			"xpos"			"c105"
-			"ypos"			"c42"
-			"zpos"			"2"
-			"wide"			"50"
-			"tall"			"50"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"O"
-			"font"			"CircleLargeS"
-			"fgcolor"		"14 14 14 255"
-			"textAlignment"	"Center"
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
+		"drawcolor"			"MaterialTeamRed"
 	}
 
 	"RedScoreBG"
@@ -206,11 +212,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"MaterialTitle"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"99999" [!$OSX]
-		"ypos"			"23"	[$WIN32]
+		"xpos"			"41"
+		"ypos"			"c-27"	[$WIN32]
+		"zpos"			"12"
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"		"0"
@@ -230,11 +237,11 @@
 		"font"			"MaterialTitle"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"center"
-		"xpos"			"c-370"
-		"ypos"			"c42" 
-		"zpos"			"4"
+		"xpos"			"c-160"
+		"ypos"			"c-27" 
+		"zpos"			"22"
 		"wide"			"50"
-		"tall"			"50"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -294,17 +301,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"ScoreboardTeamNameLarge"
+		"font"			"MaterialTitle"
 		"labelText"		"%redteamname%"
-		"textAlignment"		"east"
-		"xpos"			"99999" [!$OSX]
-		"ypos"			"23"	[$WIN32]
+		"textAlignment"		"west"
+		"xpos"			"350" [!$OSX]
+		"ypos"			"c-27"	[$WIN32]
+		"zpos"			"12"
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"MaterialTextIcons"
 		
 		if_mvm
 		{
@@ -318,11 +327,11 @@
 		"font"			"MaterialTitle"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"center"
-		"xpos"			"c105"
-		"ypos"			"c42"
-		"zpos"			"4"
+		"xpos"			"c150"
+		"ypos"			"c-27"
+		"zpos"			"22"
 		"wide"			"50"
-		"tall"			"50"
+		"tall"			"34"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -385,7 +394,7 @@
 		"font"			"MaterialCaption"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
-		"xpos"			"c-340"
+		"xpos"			"c-390"
 		"ypos"			"380"
 		"wide"			"300"
 		"tall"			"20"
@@ -408,7 +417,7 @@
 		"font"			"MaterialCaption"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
-		"xpos"			"c-175"
+		"xpos"			"c-115"
 		"ypos"			"380"
 		"wide"			"300"
 		"tall"			"20"
@@ -429,11 +438,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"105"
-		"ypos"			"232"
-		"zpos"			"20"
-		"wide"			"217"
-		"tall"			"140"	[$WIN32]
+		"xpos"			"31"
+		"ypos"			"233"
+		"zpos"			"10"
+		"wide"			"278"
+		"tall"			"144"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -452,11 +461,11 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"320"
-		"ypos"			"232"
-		"zpos"			"20"
-		"wide"			"217"
-		"tall"			"140"	[$WIN32]
+		"xpos"			"341"
+		"ypos"			"233"
+		"zpos"			"10"
+		"wide"			"278"
+		"tall"			"144"	[$WIN32]
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -482,8 +491,8 @@
 		"tall"			"133"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"14 14 14 40"
 		"PaintBackgroundType"	"0"
@@ -612,7 +621,7 @@
 		"font"			"MaterialSubHead"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
-		"xpos"			"c-340"
+		"xpos"			"c-390"
 		"ypos"			"420"
 		"zpos"			"3"
 		"wide"			"160"
@@ -947,15 +956,15 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
+			"xpos"			"r0"
 			"ypos"			"20"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		"DestructionLabel"
 		{
@@ -964,15 +973,15 @@
 			"font"			"ScoreboardVerySmall"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
+			"xpos"			"r0"
 			"ypos"			"30"	[$WIN32]
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 		}												
 		"Kills"
 		{

@@ -36,7 +36,6 @@
 	}
 
 
-
 	"BG"
 	{
 		"ControlName"	"ImagePanel"
@@ -734,6 +733,7 @@
 			"image"			"replay/thumbnails/characters/demoman"
 		}
 	}
+	
 	
 	"demoman" //Unused
 	{
@@ -1757,10 +1757,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
 
-	"MyCatalogButton"
+	"MyBPButton"
 	{
 		"ControlName"		"CExButton"
-		"fieldName"			"MyCatalogButton"
+		"fieldName"			"MyBPButton"
 		"xpos"				"c-30"
 		"ypos"				"377"
 		"zpos"				"6"
@@ -1768,9 +1768,9 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"k"
+		"labelText"			"m"
 		"font"				"IconAlt14"
-		"command"			"armory"
+		"command"			"backpack"
 		"textAlignment"		"center"
 
 		"defaultFgColor_override" 	"MaterialTextIcons"

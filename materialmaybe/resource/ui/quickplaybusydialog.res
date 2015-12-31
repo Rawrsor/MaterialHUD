@@ -171,19 +171,25 @@
 
 		"MaterialBG"
 		{
-			"ControlName"	"CExImageButton"
+			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"MaterialBG"
-			"xpos"			"50"
+			"xpos"			"47"
 			"ypos"			"52"
 			"zpos"			"0"
-			"wide"			"300"
-			"tall"			"265"
+			"wide"			"306"
+			"tall"			"269"
 			"visible"		"1"
 			"enabled"		"1"
-			"textinsetx"	"9999"
 
-			"defaultBgColor_Override"	"MaterialTextIcons"
-			"armedBgColor_Override"		"MaterialTextIcons"
+			"image"				"replay/thumbnails/materialPanel"
+
+			"alpha"				"255"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
+		
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 		"MaterialBGTop"
 		{
@@ -213,6 +219,28 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"MaterialPrimaryDark"
+		}
+		"CardShadowBottom"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"		"CardShadowBottom"
+			"xpos"			"47"
+			"ypos"			"103"
+			"zpos"			"48"
+			"wide"			"306"
+			"tall"			"24"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"				"replay/thumbnails/materialPanel"
+
+			"alpha"				"255"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
+		
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 
 		"Background"
@@ -255,10 +283,10 @@
 			"ControlName"	"PanelListPanel"
 			"fieldName"		"ServerList"
 			"xpos"			"50"
-			"ypos"			"127"
+			"ypos"			"123"
 			"zpos"			"1"
 			"wide"			"300"
-			"tall"			"190"
+			"tall"			"192"
 			"autoResize"	"1"
 			"pinCorner"		"0"
 		}

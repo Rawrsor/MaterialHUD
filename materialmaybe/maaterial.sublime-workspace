@@ -8,43 +8,75 @@
 	"buffers":
 	[
 		{
+			"file": "resource/ui/huddemomancharge.res",
+			"settings":
+			{
+				"buffer_size": 436,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resource/ui/huddemomanpipes.res",
+			"settings":
+			{
+				"buffer_size": 4675,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resource/ui/huditemeffectmeter_sniper.res",
+			"settings":
+			{
+				"buffer_size": 2040,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resource/ui/huditemeffectmeter_sniperfocus.res",
+			"settings":
+			{
+				"buffer_size": 1762,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resource/ui/huditemeffectmeter_spyknife.res",
+			"settings":
+			{
+				"buffer_size": 1738,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resource/ui/hudobjectivekothtimepanel.res",
+			"settings":
+			{
+				"buffer_size": 2093,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resource/ui/hudammoweaponsBox.res",
+			"settings":
+			{
+				"buffer_size": 3291,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "resource/clientscheme.res",
 			"settings":
 			{
-				"buffer_size": 1589,
+				"buffer_size": 2225,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "resource/schemes/BASE.res",
+			"file": "scripts/hudlayout.res",
 			"settings":
 			{
-				"buffer_size": 117858,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resource/ui/charinfoloadoutsubpanel.res",
-			"settings":
-			{
-				"buffer_size": 68641,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "resource/ui/mainmenuoverride.res",
-			"settings":
-			{
-				"buffer_size": 92183,
+				"buffer_size": 23001,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resource/ui/targetid.res",
-			"settings":
-			{
-				"buffer_size": 5450,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -55,7 +87,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
+		"height": 354.0,
 		"last_filter": "Package Control: ",
 		"selected_items":
 		[
@@ -64,7 +96,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 408.0
+		"width": 382.0
 	},
 	"console":
 	{
@@ -90,24 +122,99 @@
 	],
 	"file_history":
 	[
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/textwindow.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/clientscheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_scout.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/mapinfomenu.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/FirefoxOS.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/Ubuntu.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/textwindow.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/BASE.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudhealthaccount.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huddamageaccount.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_CarrotHUD-master/resource/ui/huddamageaccount.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_CarrotHUD-master/scripts/hudlayout.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/hudlayout.res",
+		"/C/Program Files (x86)/Ultrabox/Chroma Sync/scripts/readme.txt",
+		"/C/Program Files (x86)/Ultrabox/Chroma Sync/scripts/CSGO/csgo_main.lua",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_CarrotHUD-master/resource/ui/hudaccountpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/solarized.res",
+		"/C/Users/Drew/[PC] Need for Speed ProStreet/Serial/Serial.txt",
+		"/C/Users/Drew/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Program Files (x86)/Steam/steamapps/sourcemods/tf2classic/custom/HUDBOI/resource/ClientScheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/cfg/valve.rc",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/mainmenuoverride.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/scoreboard.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudmediccharge.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/base_animations/materialAnimations.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/Custom.res",
+		"/C/Users/Drew/Documents/GitHub/tf2basehud/resource/ui/hudhealthaccount.res",
+		"/C/Users/Drew/Documents/GitHub/tf2basehud/resource/ui/hudaccountpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huddemomanpipes.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/hudanimations_tf.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/quickplaydialog.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/classselection.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/itemselectionpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/backpackpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/itemmodelpanel.res",
+		"/C/Users/Drew/Documents/GitHub/tf2basehud/resource/ui/econ/itemmodelpanel.res",
+		"/C/Users/Drew/Native.Instruments.Reaktor.6.v6.0.1.Incl.Patched.and.Keygen-R2R/R2R/R2R.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/notificationspresentpanel.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/notificationtoastcontrol.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/notificationtoastcontainer.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/notificationqueuepanel.res",
+		"/C/Users/Drew/Documents/GitHub/tf2basehud/resource/ui/notifications/base_notification.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/scoreboard.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/base_animations/materialAnimationsBox.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/hudanimations_manifest.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/materialAnimations.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/materialAnimationsBox.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/hudanimations_tf_20151217.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/scripts/hudanimations_manifest.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/hudanimations_tf.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/base/blurred-screen.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/classloadoutpanel.res",
+		"/C/Users/Drew/Android Tools/navigate_nexus5x_g4/AndroidManifest.xml",
+		"/C/Users/Drew/Android Tools/navigate_nexus5x_g4/res/values/strings.xml",
+		"/C/Users/Drew/Android Tools/navigate_circl_g4/AndroidManifest.xml",
+		"/C/Users/Drew/Android Tools/navigate_peak_g4/AndroidManifest.xml",
+		"/C/Users/Drew/Android Tools/Iron_Man_Red_Softkeys/res/values/strings.xml",
+		"/C/Users/Drew/Android Tools/navigate_circl_g4/res/values/strings.xml",
+		"/C/Users/Drew/Android Tools/Iron_Man_Red_Softkeys/AndroidManifest.xml",
+		"/C/Users/Drew/Android Tools/navigate_circl_g4/build/apk/AndroidManifest.xml",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/sourcescheme.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/BluegreyRed.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/quickplaybusydialog.res",
+		"/C/Users/Drew/Documents/GitHub/tf2basehud/resource/ui/mvmscoreboard.res",
+		"/C/Users/Drew/Documents/GitHub/tf2basehud/resource/ui/scoreboard.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/chapterbackgrounds.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/charinfoloadoutsubpanel.res",
+		"/C/csgo-ds/csgo/cfg/server.cfg",
+		"/C/csgo-ds/csgo/addons/sourcemod/configs/databases.cfg",
+		"/C/csgo-ds/csgo/addons/sourcemod/scripting/franug_weaponpaints.sp",
+		"/C/Users/Drew/AppData/Local/Temp/Rar$DIa0.290/install.txt",
+		"/C/csgo-ds/csgo/addons/sourcemod/plugins/franug_weaponpaints.smx",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/mainmenuoverride.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/scripts/chapterbackgrounds.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/OrangeLime.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/scripts/items/items_game - Copy.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/classselection.res",
+		"/C/Users/Drew/Documents/GitHub/tf2basehud/resource/ui/classmenu.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/BrownBlue.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/GreyGreen.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hud_obj_sentrygun.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/targetid.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudobjectivekothtimepanel.res",
+		"/C/Users/Drew/HUDDA.txt",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/gamemenu.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/spectatorguihealth.res",
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/scripts/hudanimations_tf.txt",
 		"/C/Users/Drew/BAE/readme.txt",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/MintHUD/resource/ui/textwindow.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/backpackpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/QualityScheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/BASE.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/QualitySchemeAlt.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/mainmenuoverride.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/charinfoloadoutsubpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/charinfoloadoutsubpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_powerupbottle.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/charinfoarmorysubpanel.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/quickplaybusydialog.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/quickplaydialog.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/clientscheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/sourcemods/tf2classic/custom/HUDBOI/resource/ClientScheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/Custom.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/clientscheme.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/RedGreen - Copy.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/schemes/clientscheme_noto.res",
@@ -120,25 +227,20 @@
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/clientscheme - GreenPink.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/GreenPink.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/Numix.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/scoreboard.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/hudanimations_tf.txt",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/schemes/RedGreen.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/schemes/clientscheme_prism_colors.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/schemes/clientscheme_noto_new.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/schemes/clientscheme_noto_font_locations.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudammoweapons.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudobjectivestatus.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hud_obj_sentrygun.res",
 		"/C/Users/Drew/netplay/dopelives's ReadMe.txt",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/hudanimations_tfBox.txt",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudplayerhealth.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_cleaver.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_sodapopper.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/classloadoutpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/charinfoarmorysubpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/charinfopanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/loadoutpresetpanel.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/econ/itemmodelpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/ui/econ/backpackpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/classloadoutpanel.res",
 		"/C/Users/Drew/Documents/Rainmeter/Skins/MyClock/Clock.ini",
@@ -147,81 +249,11 @@
 		"/C/Users/Drew/AppData/Roaming/.minecraft/versions/1.7.10-Forge10.13.4.1517-1.7.10/1.7.10-Forge10.13.4.1517-1.7.10.json",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/econ/backpackpanel.res",
 		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/clientscheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/statsummary.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/materials/hud/health_color_explained.txt",
-		"/C/Users/Drew/VDub/plugins32/Quicktime_ReadMe.txt",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/loadingdialog.res",
-		"/C/csgo-ds/csgo/cfg/surf.cfg",
-		"/C/csgo-ds/csgo/cfg/server.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudmediccharge.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hud_obj_dispenser.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hud_obj_sapper.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_killstreak.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/scripts/hudlayout.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudobjectivekothtimepanel.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudobjectivetimepanel.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/hudobjectivestatus.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudaccountpanel.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/hud_obj_sentrygun.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/scripts/hudanimations_tf.txt",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_raygun.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_engineer.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_particlecannon.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/huditemeffectmeter_pomson.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/hudtournamentsetup.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/hudplayerclass.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/huditemeffectmeter.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/hudplayerhealth.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/build_menu/base_active.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/sourcescheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/scripts/items/items_game.txt",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/gamemenu.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/sourcescheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/sourcescheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/clientscheme.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/gamelogo.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/textwindowcustomserver.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/navigationpaneltest.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/layeredmappanel.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/servernotconnectedtosteam.res",
-		"/C/Users/Drew/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/ui/mainmenuoverride.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/tf2basehud-master/resource/ui/mainmenuoverride.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/BubbleHUD/resource/ui/mainmenuoverride.res",
-		"/C/Users/Drew/AppData/Local/Temp/Rar$DIa0.916/README.txt",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/maxquality.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/highframes.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/MintHUD/resource/ui/spectator.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/MintHUD/resource/ui/scoreboard.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/autoexec.cfg",
-		"/C/Users/Drew/AppData/Local/Temp/Rar$DIa0.811/Installation Instructions (Readme) .txt",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/spy.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/cfg/PrismHud/config.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/cfg/PrismHud/refractmasking/commands1.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/_prism_hud/resource/ui_overrides/healthcross_circlecross/1_rmask_yes.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/prismhud.txt",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/soldier.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/sniper.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/pyro.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/medic.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/heavyweapons.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/engineer.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/demoman.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/spy2.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/cfg/scout.cfg",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/cliphud-master/resource/ui/mainmenuoverride.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom_/cliphud-master/resource/ui/hudplayerhealth.res",
-		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/BubbleHUD/resource/ui/mainmenuoverride.res",
-		"/C/Users/Drew/Documents/GitHub/BubbleHUD/readme.txt",
-		"/C/Users/Drew/Native.Instruments.Solid.Mix.Series.v1.0.1.INTERNAL-R2R/Readme.txt",
-		"/C/Users/Drew/Native.Instruments.Solid.Mix.Series.v1.0.1.INTERNAL-R2R/R2R/R2R.txt",
-		"/C/Users/Drew/Documents/Rainmeter/Skins/Radial/12h/Radial12h.ini",
-		"/C/Users/Drew/Documents/GitHub/BubbleHUD/resource/sourcescheme.res"
+		"/C/Program Files (x86)/Steam/steamapps/common/Team Fortress 2/tf/custom/materialmaybe/resource/ui/statsummary.res"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -236,6 +268,30 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"motd",
+			"damage",
+			"MyBorder",
+			"notification",
+			"demoman",
+			"Verdana",
+			"nmap",
+			"alert",
+			"notification",
+			"close",
+			"notification",
+			"noti",
+			"motd",
+			"scroll",
+			"Verdana",
+			"Arial",
+			"Tahoma",
+			"class",
+			"americanpastoral",
+			"player",
+			"board",
+			"explanation",
+			"bg",
+			"motd",
 			"character",
 			"intro",
 			"movie",
@@ -339,31 +395,7 @@
 			"Antique",
 			"tartan",
 			"map",
-			"{\n",
-			"50",
-			"1",
-			"\"156 136 126 255\"",
-			"background",
-			"\"156 136 126 255\"",
-			"\"175 56 78 255\"",
-			"map",
-			"bottom",
-			"kills",
-			"board",
-			"score",
-			"436",
-			"blue",
-			"//hud f",
-			"//hud",
-			"}\n",
-			"class",
-			"//hud",
-			"cancel",
-			"Random",
-			"model",
-			"character",
-			"classmenu",
-			"model"
+			"{\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -371,6 +403,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Roboto Light",
+			"Roboto Regular",
+			"Roboto Light",
 			"\"backpack_rect_mouseover_color\"",
 			"\"backpack_rect_mouseover\"",
 			"\"src_corner_height\"		\"40\"				// pixels inside the image\n			\"src_corner_width\"		\"40\"\n			\"draw_corner_width\"		\"0\"				// screen size of the corners ( and sides ), proportional\n			\"draw_corner_height\" 	\"0\"	",
@@ -391,144 +426,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 7,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "resource/clientscheme.res",
+					"file": "resource/ui/huddemomancharge.res",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1589,
+						"buffer_size": 436,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1402,
-								1402
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 90.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resource/schemes/BASE.res",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 117858,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								17864,
-								17864
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7485.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "resource/ui/charinfoloadoutsubpanel.res",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68641,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2338,
-								3073
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1365.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "resource/ui/mainmenuoverride.res",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92183,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								38388,
-								38388
-							]
-						],
-						"settings":
-						{
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 27913.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "resource/ui/targetid.res",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5450,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1994,
-								1994
+								128,
+								425
 							]
 						],
 						"settings":
@@ -541,7 +456,247 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resource/ui/huddemomanpipes.res",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resource/ui/huditemeffectmeter_sniper.res",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								281
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resource/ui/huditemeffectmeter_sniperfocus.res",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								285
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resource/ui/huditemeffectmeter_spyknife.res",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resource/ui/hudobjectivekothtimepanel.res",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "resource/ui/hudammoweaponsBox.res",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1147,
+								1346
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "resource/clientscheme.res",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1166,
+								1166
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "scripts/hudlayout.res",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1463,
+								1463
+							]
+						],
+						"settings":
+						{
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 850.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -549,7 +704,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 22.0
 	},
 	"input":
 	{
@@ -586,7 +741,7 @@
 	"project": "maaterial.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":

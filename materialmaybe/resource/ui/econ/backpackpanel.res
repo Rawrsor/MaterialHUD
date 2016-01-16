@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"50 50 50 255"
+		"bgcolor_override"	"MaterialTextPrimary"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
@@ -269,7 +269,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"50 50 50 255"
+		"fillcolor"		"MaterialTextPrimary"
 	}
 	
 	"CaratLabel"

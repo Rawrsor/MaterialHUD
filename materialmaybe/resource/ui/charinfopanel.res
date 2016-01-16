@@ -77,7 +77,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"50 50 50 255"
+		"fillcolor"		"MaterialTextPrimary"
 	}
 	
 	"BackgroundHeader"

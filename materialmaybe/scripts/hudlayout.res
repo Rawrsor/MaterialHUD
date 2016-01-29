@@ -11,6 +11,20 @@
 		"tall"	"f0"
 	}
 
+	//Test
+	//{
+	//	"FieldName"		"Test"
+	//	"controlName"	"RotatingProgressBar"
+	//	"xpos"			"c0"
+	//	"ypos"			"c0"
+	//	"wide"			"100"
+	//	"tall"			"30"
+	//	"visible"		"1"
+	//	"enabled"		"1"
+	//	"fgcolor"		"MaterialAccent"
+	//	"bgcolor"		"14 14 14 140"
+	//}
+
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
@@ -241,7 +255,7 @@
 		"ypos"		"310"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"24"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -261,7 +275,7 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"24"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -278,7 +292,7 @@
 		"ypos"		"340"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall_minmode"	 	"24"
 		"priority"	"35"
 
 		if_vr
@@ -1097,8 +1111,7 @@
 		"enabled"				"1"
 		"xpos"					"c-125"
 		"ypos"					"5"
-		"ypos_lodef"				"75"
-		"zpos"					"2"
+		"zpos"					"100"
 		"wide"					"250"
 		"tall"					"80"
 	}
@@ -1108,10 +1121,10 @@
 		"fieldName"				"HudTournamentSetup"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-90"
+		"xpos"					"c-125"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
-		"wide"					"180"
+		"zpos"					"-1"
+		"wide"					"250"
 		"tall"					"65"
 	}
 

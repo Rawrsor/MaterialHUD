@@ -7,13 +7,13 @@ Scheme
 
 		"MaterialPrimary"					""					//The primary or main color that's consistent throughout the HUD
 		
-		"MaterialPrimaryDark"				""					//A darker version of the primary color
+		"MaterialPrimaryDark"				""					//Darker primary color
 		
-		"MaterialPrimaryLight"				""					//A lighter version of the primary color(usually some kind of off white)
+		"MaterialPrimaryLight"				""					//Lighter primary color(usually some kind of off white)
 		
-		"MaterialAccent"					""					//
+		"MaterialAccent"					""					//A color scattered throughout the HUD, usually contrasting with the primary color
 		
-		"MaterialAccentDark"				""					//
+		"MaterialAccentDark"				""					//Darker accent
 		
 		"MaterialTextIcons"					""					//Text color used when text is on the primary or accent color(usually white)
 		

@@ -5,7 +5,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ItemSelectionPanel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-20"
 		"zpos"			"500"
 		"wide"			"f0"
 		"tall"			"f0"
@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"bgcolor_override"	"0 0 0 0"
+		"bgcolor_override"	"materialTextPrimary"
 		
 		"item_ypos"		"120"
 		"item_ydelta"	"80"
@@ -88,6 +88,8 @@
 		}
 	}
 
+
+
 	"HealthBG"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -122,7 +124,29 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"50 50 50 255"
+		"fillcolor"		"materialTextPrimary"
+	}
+
+	"HealthBG2"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"HealthBG2"
+		"xpos"				"c-90"
+		"ypos"				"350"
+		"zpos"				"-2"
+		"wide"				"180"
+		"tall"				"30"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+				
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	
 	"CaratLabel"
@@ -132,7 +156,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"r0"
+		"xpos"			"999999"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"20"
@@ -150,7 +174,7 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"r0"
+		"xpos"			"999999"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"480"
@@ -168,7 +192,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"r0"
+		"xpos"			"9999999"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"90"
@@ -184,7 +208,7 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"r0"
+		"xpos"		"999999"
 		"ypos"		"15"
 		"zpos"		"2"
 		"wide"		"90"
@@ -241,7 +265,7 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
-		"xpos"			"c-55"
+		"xpos"			"999999"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"375"
@@ -259,7 +283,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#NoItemsToEquip"
 		"textAlignment"	"center"
-		"xpos"			"c-300"
+		"xpos"			"999999"
 		"ypos"			"120"
 		"zpos"			"10"
 		"wide"			"600"
@@ -275,7 +299,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-200"
+		"xpos"			"r0"
 		"ypos"			"400"
 		"zpos"			"2"
 		"wide"			"200"
@@ -368,35 +392,77 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"290"
+		"xpos"			"c-90"
+		"ypos"			"355"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"90"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"labelText"		"j"
+		"font"			"Icon12"
+		"textAlignment"	"west"
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+
+		"defaultFgColor_override" 	"MaterialTextSecondary"
+		"armedFgColor_override" 	"MaterialTextPrimary"
+		"depressedFgColor_override" "MaterialTextIcons"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}	
+
+		"PrevPageButton3"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PrevPageButton3"
+		"xpos"			"c-999999"
+		"ypos"			"355"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&a"
+		"font"			"Icon12"
+		"textAlignment"	"west"
+		"Command"		"prevpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+
+		"defaultFgColor_override" 	"MaterialTextSecondary"
+		"armedFgColor_override" 	"MaterialTextPrimary"
+		"depressedFgColor_override" "MaterialTextIcons"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}			
 	
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"MaterialHeadline"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"290"
+		"xpos"			"c-20"
+		"ypos"			"355"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -404,32 +470,74 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "MaterialTextSecondary"
 	}
 	
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"290"
+		"xpos"			"c0"
+		"ypos"			"355"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"90"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		"labelText"		"k"
+		"font"			"Icon12"
+		"textAlignment"	"east"
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+
+		"defaultFgColor_override" 	"MaterialTextSecondary"
+		"armedFgColor_override" 	"MaterialTextPrimary"
+		"depressedFgColor_override" "MaterialTextIcons"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}	
+
+	"NextPageButton2"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NextPageButton2"
+		"xpos"			"c99999"
+		"ypos"			"355"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&d"
+		"font"			"icon12"
+		"textAlignment"	"east"
+		"Command"		"nextpage"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"NoBorder"
+		"border_armed"		"NoBorder"
+
+		"defaultFgColor_override" 	"MaterialTextSecondary"
+		"armedFgColor_override" 	"MaterialTextPrimary"
+		"depressedFgColor_override" "MaterialTextIcons"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+	}			
 	
 	"mouseoveritempanel"
 	{

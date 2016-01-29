@@ -215,15 +215,16 @@
 		"font"			"MaterialTitle"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"41"
+		"xpos"			"c-380"
 		"ypos"			"c-27"	[$WIN32]
-		"zpos"			"12"
+		"zpos"			"20"
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"MaterialTextIcons"
 		
 		if_mvm
 		{
@@ -304,9 +305,9 @@
 		"font"			"MaterialTitle"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
-		"xpos"			"350" [!$OSX]
+		"xpos"			"c-72"
 		"ypos"			"c-27"	[$WIN32]
-		"zpos"			"12"
+		"zpos"			"20"
 		"wide"			"140"
 		"tall"			"34"
 		"autoResize"	"0"

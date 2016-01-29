@@ -39,10 +39,11 @@
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"36"
-		"tall"				"31	"
+		"tall"				"31"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"replay/thumbnails/materialPanel"
+		"drawcolor"			"MaterialTextPrimary"
 
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
@@ -107,11 +108,32 @@
 		"tall"			"31"
 		"visible"		"0"
 
+		"HealthBG"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"			"HealthBG"
+			"xpos"				"36"
+			"ypos"				"0"
+			"zpos"				"-2"
+			"wide"				"72"
+			"tall"				"31"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"replay/thumbnails/materialPanel"
+			"drawcolor"			"MaterialTextPrimary"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
+			
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"46"
+			"xpos"			"r0"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -127,7 +149,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"46"
+			"xpos"			"r0"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -143,7 +165,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"46"
+			"xpos"			"r0"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -220,7 +242,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
+			"xpos"			"45"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -241,8 +263,7 @@
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"fgcolor"		"MaterialTextIcons"
 			}
 			
 			"BuildingProgress"
@@ -259,8 +280,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"fgcolor_override"		"MaterialAccent"
+				"bgcolor_override"		"14 14 14 140"
 			}
 		}
 	
@@ -268,7 +289,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"60"
+			"xpos"			"45"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -279,15 +300,15 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"AmmoIcon"
 				"xpos"			"0"
-				"ypos"			"5"
+				"ypos"			"6"
 				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"wide"			"8"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"MaterialTextIcons"
 			}
 
 			"Ammo"
@@ -295,10 +316,10 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Ammo"
 				"font"			"Default"
-				"xpos"			"12"
-				"ypos"			"6"
-				"wide"			"38"
-				"tall"			"8"
+				"xpos"			"10"
+				"ypos"			"7"
+				"wide"			"46"
+				"tall"			"7"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -313,15 +334,15 @@
 				"ControlName"	"CIconPanel"
 				"fieldName"		"UpgradeIcon"
 				"xpos"			"0"
-				"ypos"			"16"
+				"ypos"			"17"
 				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"wide"			"8"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
-				"iconColor"		"ProgressOffWhite"
+				"iconColor"		"MaterialTextIcons"
 			}
 			
 			"Upgrade"
@@ -329,10 +350,10 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"12"
-				"ypos"			"17"
-				"wide"			"38"
-				"tall"			"8"
+				"xpos"			"10"
+				"ypos"			"18"
+				"wide"			"46"
+				"tall"			"7"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

@@ -5,23 +5,19 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"			"f0"
+		"tall"			"f0"
+		"MeterFG"		"MaterialAccent"
+		"MeterBG"		"MaterialTextIcons"
 	}
 	
 	"ItemEffectMeterBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
+		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"76"
@@ -41,10 +37,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"25"
-		"ypos"					"27"
+		"xpos"					"c120"
+		"ypos"					"c100"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"40"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -53,9 +49,30 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"MaterialBody1"
+		"fgcolor_override"		"MaterialTextSecondary"
+	}
+
+	"HealthBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"HealthBG"
+		"xpos"				"c118"
+		"ypos"				"c98"
+		"zpos"				"0"
+		"wide"				"75"
+		"tall"				"19"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 
 	"ItemEffectMeter"
@@ -84,19 +101,18 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"25"
-		"ypos"					"10"
+		"xpos"					"c112"
+		"ypos"					"c100"
 		"zpos"					"2"
-		"wide"					"44"
-		"tall"					"20"	
+		"wide"					"75"
+		"tall"					"15"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"textAlignment"			"east"
+		"font"					"MaterialBody2"
+		"fgcolor"				"MaterialTextSecondary"
 	}
 }

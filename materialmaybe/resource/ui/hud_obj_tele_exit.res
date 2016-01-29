@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"0"
+		"xpos"			"r0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
@@ -30,20 +30,41 @@
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
+
+	"HealthBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"HealthBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"36"
+		"tall"				"31"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+		"drawcolor"			"MaterialTextPrimary"
+
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
+		
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
+	}
 	
 	"Icon_Teleport_Exit"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"24"
-		"ypos"			"1"
-		"wide"			"28"
-		"tall"			"28"
+		"xpos"			"20"
+		"ypos"			"8"
+		"wide"			"12"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_exit"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"MaterialTextSecondary"
 	}
 	
 	"NotBuiltPanel"
@@ -52,6 +73,7 @@
 		"fieldName"		"NotBuiltPanel"
 		"xpos"			"0"
 		"ypos"			"0"
+		"zpos"			"1"
 		"wide"			"160"
 		"tall"			"31"
 		"visible"		"1"
@@ -60,19 +82,18 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"DefaultVerySmall"
-			"xpos"			"60"
+			"font"			"Icon14"
+			"xpos"			"-4"
 			"ypos"			"0"
-			"wide"			"200"
-			"tall"			"31"
+			"wide"			"32"
+			"tall"			"32"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#Building_hud_tele_exit_not_built"
-			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			"labelText"		"l"
+			"textAlignment"	"center"
+			"fgcolor" 		"MaterialLowHealth"	
 		}
 	}
 	
@@ -86,11 +107,32 @@
 		"tall"			"43"
 		"visible"		"0"
 
+		"HealthBG"
+		{
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"			"HealthBG"
+			"xpos"				"36"
+			"ypos"				"0"
+			"zpos"				"-2"
+			"wide"				"72"
+			"tall"				"31"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"replay/thumbnails/materialPanel"
+			"drawcolor"			"MaterialTextPrimary"
+
+			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_width"	"23"
+			
+			"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
+		}
+
 		"Icon_Upgrade_1"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_1"
-			"xpos"			"46"
+			"xpos"			"r0"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -106,7 +148,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_2"
-			"xpos"			"46"
+			"xpos"			"r0"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -122,7 +164,7 @@
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"Icon_Upgrade_3"
-			"xpos"			"46"
+			"xpos"			"r0"
 			"ypos"			"4"
 			"zpos"			"1"
 			"wide"			"8"
@@ -184,24 +226,22 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"13"
-			"ypos"			"3"
+			"xpos"			"7"
+			"ypos"			"4"
 			"wide"			"8"
-			"tall"			"24"
+			"tall"			"21"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
 		}
 
 		"BuildingPanel"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
+			"xpos"			"45"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -249,7 +289,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"60"
+			"xpos"			"45"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -260,10 +300,10 @@
 				"ControlName"	"CIconPanel"
 				"fieldName"		"UpgradeIcon"
 				"xpos"			"0"
-				"ypos"			"16"
+				"ypos"			"17"
 				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"wide"			"8"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
@@ -278,8 +318,8 @@
 				"font"			"Default"
 				"xpos"			"12"
 				"ypos"			"17"
-				"wide"			"38"
-				"tall"			"8"
+				"wide"			"46"
+				"tall"			"7"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

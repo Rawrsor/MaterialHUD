@@ -9,18 +9,19 @@
 
 #base 			"schemes/BASE.res"				//The base clientscheme, holds everything from 11/12/2015 and earlier
 
-//#base 			"schemes/QualityScheme.res"		//Colors for the item quality borders in the backpack
-#base 		"schemes/QualitySchemeAlt.res"	//Alternate item quality color scheme
+#base 			"schemes/QualityScheme.res"		//Colors for the item quality borders in the backpack
+//#base 		"schemes/QualitySchemeAlt.res"	//Alternate item quality color scheme
 
 
-#base 	"schemes/RedGreen.res"
+//#base 	"schemes/RedGreen.res"
 //#base 	"schemes/AmberIndigo.res"
 //#base 	"schemes/BrownBlue.res"
 //#base 	"schemes/OrangeLime.res"
 //#base 	"schemes/GreyGreen.res"
 //#base 	"schemes/GreenPink.res"
 //#base 	"schemes/BluePink.res"
-//#base 	"schemes/BluegreyRed.res"
+#base 	"schemes/BluegreyRed.res"
+//#base 	"schemes/raysColor.res"
 //#base 	"schemes/Numix.res"				//Color scheme based on the GTK theme Numix
 //#base 	"schemes/solarized.res"			//Based on the Solarized Color Pallette: 	http://ethanschoonover.com/solarized
 //#base 	"schemes/FireFoxOS.res"			//Based on the FireFox OS Color Pallette: 	https://www.mozilla.org/en-US/styleguide/products/firefox-os/color/
@@ -99,6 +100,25 @@ Scheme
 				"blur"		"2"
 			}
 		}
+
+		"IconMedia18"
+		{
+			"1"
+			{
+				"name"		"mediathings"
+				"tall"		"18"
+				"antialias"	"1"
+			}
+		}
+		"IconMedia14"
+		{
+			"1"
+			{
+				"name"		"mediathings"
+				"tall"		"14"
+				"antialias"	"1"
+			}
+		}
 	}
 
 	Borders
@@ -111,6 +131,11 @@ Scheme
 		{
 			"font"	"resource/fonts/moresymbols.ttf"
 			"name"	"moresymbols"
+		}
+		"14"
+		{
+			"font"	"resource/fonts/mediathings.ttf"
+			"name"	"mediathings"
 		}
 	}
 }

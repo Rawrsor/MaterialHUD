@@ -8,6 +8,7 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"MaterialBuffHealth"
 		"NegativeColor"			"MaterialLowHealth"
+		"EventColor"			"MaterialPrimary"
 		"delta_lifetime"		"1.0"
 		"delta_item_font"		"MaterialTitle"
 		"delta_item_font_big"	"MaterialDisplay1"

@@ -9,14 +9,15 @@
 //
 ///////////////////////////////////////////////////////////
 
-#base         "schemes/RedGreen.res"
+//#base         "schemes/RedGreen.res"
 //#base         "schemes/AmberIndigo.res"
 //#base         "schemes/BrownBlue.res"
 //#base         "schemes/OrangeLime.res"
 //#base         "schemes/GreyGreen.res"
 //#base         "schemes/GreenPink.res"
 //#base         "schemes/BluePink.res"
-//#base         "schemes/BluegreyRed.res"
+#base         "schemes/BluegreyRed.res"
+//#base   "schemes/raysColor.res"
 //#base         "schemes/Numix.res"                             //Color scheme based on the GTK theme Numix
 //#base   "schemes/solarized.res"                 //Based on the Solarized Color Pallette:        http://ethanschoonover.com/solarized
 //#base         "schemes/FireFoxOS.res"                 //Based on the FireFox OS Color Pallette:       https://www.mozilla.org/en-US/styleguide/products/firefox-os/color/

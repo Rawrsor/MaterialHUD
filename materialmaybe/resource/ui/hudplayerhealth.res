@@ -14,7 +14,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"MaterialHealthLow"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -34,7 +34,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"9999"
-		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"55"

@@ -15,8 +15,8 @@ Scheme
 
 		"MaterialTeamBlu"					"26 182 239 255"
 		"MaterialTeamRed"					"223 56 44 255"
-		"MaterialTeamSpec"					"118 37 114 255"
-		"MaterialTeamAuto"					"93 93 93 255"
+		"MaterialTeamSpec"					"93 93 93 255"
+		"MaterialTeamAuto"					"118 37 114 255"
 
 		"MaterialLowHealth"					"223 56 44 255"
 		"MaterialBuffHealth"				"56 180 74 255"

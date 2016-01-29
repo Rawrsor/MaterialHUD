@@ -45,10 +45,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -75,5 +71,6 @@
 		"textAlignment"			"Left"
 		"fgcolor_override"		"MaterialAccent"
 		"bgcolor_override"		"0 0 0 140"
+		"bright_color"			"MaterialAccent"
 	}					
 }

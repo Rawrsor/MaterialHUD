@@ -68,7 +68,7 @@ event HudMedicCharged
 	Animate	ChargeLabel 	Alpha 			"0" 		Deaccel	0.0 0.05
 
 	Animate ChargeMeter 	Position 		"c123 c69"	Deaccel 0.0 0.3
-	Animate ChargeMeter 	Size 			"64 26"		Deaccel 0.3 0.3
+	Animate ChargeMeter 	Size 			"64 27"		Deaccel 0.3 0.3
 	Animate ChargeMeter 	Fgcolor 		"MaterialAccent" 		linear 0.1 0.3
 	Animate ChargeMeter     Fgcolor 		"MaterialAccentDark" 	linear 0.4 0.3
 

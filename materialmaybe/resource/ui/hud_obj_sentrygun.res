@@ -44,6 +44,8 @@
 		"enabled"			"1"
 		"image"				"replay/thumbnails/materialPanel"
 
+		"drawcolor"			"MaterialTextPrimary"
+
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
@@ -153,6 +155,7 @@
 			"visible"			"1"
 			"enabled"			"1"
 			"image"				"replay/thumbnails/materialPanel"
+			"drawcolor"			"MaterialTextPrimary"
 
 			"src_corner_height"	"23"				// pixels inside the image
 			"src_corner_width"	"23"
@@ -215,10 +218,10 @@
 			"ypos"			"0"
 			"zpos"			"-2"
 			"wide"			"44"
-			"tall"			"60"
+			"tall"			"48"
 			"visible"		"1"
 			"enabled"		"1"	
-			"icon"			"obj_status_alert_background_tall"
+			"icon"			"replay/thumbnails/materiallogo"
 		}
 		
 		"WrenchIcon"
@@ -275,7 +278,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"60"
+			"xpos"			"45"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"60"
@@ -296,8 +299,7 @@
 				"enabled"		"1"
 				"labelText"		"#Building_hud_building"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"fgcolor"		"MaterialTextIcons"
 			}
 			
 			"BuildingProgress"
@@ -323,8 +325,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"60"
-			"ypos"			"0"
+			"xpos"			"45"
+			"ypos"			"-5"
 			"wide"			"100"
 			"tall"			"60"
 			"visible"		"0"
@@ -336,13 +338,13 @@
 				"xpos"			"0"
 				"ypos"			"12"
 				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"wide"			"8"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_kill_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"MaterialTextIcons"
 			}
 						
 			"KillsLabel"
@@ -351,7 +353,7 @@
 				"fieldName"		"KillsLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"12"
-				"ypos"			"13"
+				"ypos"			"12"
 				"wide"			"200"
 				"tall"			"22"
 				"autoResize"	"0"
@@ -360,8 +362,7 @@
 				"enabled"		"1"
 				"labelText"		"#Building_hud_sentry_kills_assists"
 				"textAlignment"	"north-west"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"fgcolor"		"MaterialTextIcons"
 			}
 					
 			"ShellIcon"	
@@ -371,13 +372,13 @@
 				"xpos"			"0"
 				"ypos"			"25"
 				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"wide"			"8"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_ammo_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"MaterialTextIcons"
 			}
 			
 			"Shells"
@@ -385,17 +386,17 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Shells"
 				"font"			"Default"
-				"xpos"			"0"
+				"xpos"			"10"
 				"ypos"			"26"
-				"wide"			"38"
-				"tall"			"8"				
+				"wide"			"46"
+				"tall"			"7"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
 				"fgcolor"		"MaterialAccent"
-				"bgcolor"		"14 14 14 140"
+				"bgcolor_override"		"MaterialTextSecondary"
 			}
 			
 			"RocketIcon"	
@@ -405,13 +406,13 @@
 				"xpos"			"0"
 				"ypos"			"38"
 				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"wide"			"8"
+				"tall"			"8"
 				"visible"		"0"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"image"			"../hud/hud_obj_status_rockets_64"
-				"drawcolor"		"ProgressOffWhite"
+				"drawcolor"		"MaterialTextIcons"
 			}
 			
 			"Rockets"
@@ -419,17 +420,17 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Rockets"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"10"
 				"ypos"			"39"
-				"wide"			"38"
-				"tall"			"8"
+				"wide"			"46"
+				"tall"			"7"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"textAlignment"	"Left"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				"fgcolor"		"MaterialAccent"
+				"bgcolor_override"		"MaterialTextSecondary"
 			}
 
 			"UpgradeIcon"
@@ -439,8 +440,8 @@
 				"xpos"			"0"
 				"ypos"			"38"
 				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
+				"wide"			"8"
+				"tall"			"8"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
@@ -453,15 +454,16 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
 				"font"			"Default"
-				"xpos"			"12"
+				"xpos"			"10"
 				"ypos"			"39"
-				"wide"			"38"
-				"tall"			"8"
+				"wide"			"46"
+				"tall"			"7"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"textAlignment"	"Left"
+				"bgcolor" "MaterialTextSecondary"
 			}
 		}
 	}
